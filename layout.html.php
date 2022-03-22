@@ -9,7 +9,6 @@
 		<?php if (publisher()): ?>
 		<link href="<?php echo publisher() ?>" rel="publisher" /><?php endif; ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="<?php echo site_url();?>/themes/water/css/water.cssbak">
 		<script>
 	function setTheme(themeName) {
   localStorage.setItem('theme', themeName);
