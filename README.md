@@ -1,4 +1,4 @@
-# HTMLy water
+# Theme for HTMLy cms "water"
 water Theme by dirmanhana.
 
 
