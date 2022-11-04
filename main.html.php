@@ -2,9 +2,9 @@
 <?php foreach ($posts as $p): ?>
 
         <?php if (!empty($p->link)) { ?>
-                <h2><a target="_blank" href="<?php echo $p->link ?>"><?php echo $p->title ?></a></h2>            
+                <h2><a target="_blank" href="<?php echo $p->url; ?>"><?php echo $p->title; ?></a></h2>            
         <?php } else { ?>
-            <h2><a href="<?php echo $p->url; ?>"></a><?php echo $p->title; ?></h2>
+            <h2><a target="_blank" href="<?php echo $p->url; ?>"><?php echo $p->title; ?></a></h2>
         <?php } ?>
         <p><?php echo format_date($p->date); ?></p>
    
