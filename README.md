@@ -1,5 +1,5 @@
 # Theme for HTMLy cms "water"
-water Theme by dirmanhana.
+water Theme by @dirmanhana.
 
 
 ## Installations 
