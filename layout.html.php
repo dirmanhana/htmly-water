@@ -18,9 +18,9 @@
   var link = document.createElement('link');
   link.rel = 'stylesheet';
   if (themeName == "theme-dark") {
-    link.href = '<?php echo site_url();?>/themes/water/css/dark.css';
+    link.href = '<?php echo theme_path();?>css/dark.css';
   } else {
-    link.href = '<?php echo site_url();?>/themes/water/css/light.css';
+    link.href = '<?php echo theme_path();?>css/light.css';
   }
   document.head.appendChild(link);
 }
